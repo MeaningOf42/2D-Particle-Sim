@@ -5,7 +5,7 @@ import particlesimlib
 
 particles = []
 
-for i in range(0,2):
+for i in range(0,3):
     random_nums = np.random.random_sample(4) #creates a list of 4 radom floats from 0 to 1
 
     xpos = random_nums[0] + 0.5 # uses first two values in random list to generate x and y posistions
